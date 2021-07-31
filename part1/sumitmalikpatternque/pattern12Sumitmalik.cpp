@@ -1,0 +1,20 @@
+ #include<iostream>
+ using namespace std;
+ int main(){
+     int n;
+     cout<<"row-"<<endl;
+     cin>>n;
+     int a =0;
+     int b =1;
+     for(int i=1;i<=n;i++){
+         for(int j= 1;j<=i;j++){
+             cout<<a<<" ";
+             int sum = a+b;
+             a=b;
+             b=sum;
+
+             }
+             cout<<endl;
+     }
+     return 0;
+ }

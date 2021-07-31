@@ -1,0 +1,3 @@
+#include<cstring>
+
+memset(variable_name,0 or-1,sizeof(variable name));

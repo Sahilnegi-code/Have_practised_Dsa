@@ -1,0 +1,3 @@
+1-subset of arrar
+2-first and last index
+3-inverse of array

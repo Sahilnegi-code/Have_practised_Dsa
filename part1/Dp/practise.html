@@ -1,0 +1,23 @@
+
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="myfun()">try it</button>
+    <h1 id="hello"></h1>
+    <script>
+        function myfun(){
+           let k = confirm("have u clicked the button");
+           if(k == true){
+               console.log(k);
+               document.getElementById("hello").innerHTML="Hey u clicked the  button";
+            }
+            else{
+                
+                document.getElementById("hello").innerHTML="By mistake u have  clicked";
+           }
+       }
+    </script>
+</body>
+</html>
